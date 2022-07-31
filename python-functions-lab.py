@@ -9,3 +9,8 @@ def sum_to(n):
   
   return sum
 
+# Challenge 2
+
+def largest(number_list):
+  number_list.sort()
+  return number_list[-1]
