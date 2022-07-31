@@ -19,3 +19,13 @@ def largest(number_list):
 
 def occurrences(string1, string2):
   return string1.count(string2)
+
+# Challenge 4
+
+def product(*args):
+  number = 1
+
+  for arg in args:
+    number *= arg
+  
+  return number
