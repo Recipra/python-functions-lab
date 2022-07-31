@@ -14,3 +14,8 @@ def sum_to(n):
 def largest(number_list):
   number_list.sort()
   return number_list[-1]
+
+# Challenge 3
+
+def occurrences(string1, string2):
+  return string1.count(string2)
